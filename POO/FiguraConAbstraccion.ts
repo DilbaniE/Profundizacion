@@ -12,7 +12,7 @@ abstract class FiguraConAbstracion {
     }
 }
 
-class Circulo2 extends FiguraGeometrica {
+class Circulo2 extends FiguraConAbstracion {
     radio: number
     constructor(nombre: string, radio: number) {
         super(nombre)
@@ -26,7 +26,7 @@ class Circulo2 extends FiguraGeometrica {
     }
 }
 
-class Rectangulo extends FiguraGeometrica {
+class Rectangulo extends FiguraConAbstracion {
 
     constructor(nombre: string,  public ancho: number, public alto: number) {
         super(nombre)
@@ -37,5 +37,5 @@ class Rectangulo extends FiguraGeometrica {
     }
 }
 
-const circ = new Circulo("Circulo",5)
+const circ = new Circulo2("Circulo",5)
 circ.calcularArea(); 
