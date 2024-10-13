@@ -1,0 +1,13 @@
+[
+    {"nombre": "Juan"},
+    {"edad": 34},
+    {"job": "desarrollador"},
+
+    {"nombre": "Dil"},
+    {"edad": 34},
+    {"job": "desarrollador"},
+
+    {"nombre": "Bani"},
+    {"edad": 34},
+    {"job": "desarrollador"}
+]
